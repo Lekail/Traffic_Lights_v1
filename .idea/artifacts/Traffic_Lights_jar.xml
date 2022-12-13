@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Traffic_Lights:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Traffic_Lights_jar</output-path>
+    <root id="archive" name="Traffic_Lights.jar">
+      <element id="module-output" name="Traffic_Lights" />
+    </root>
+  </artifact>
+</component>
