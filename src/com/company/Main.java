@@ -12,7 +12,7 @@ public class Main {
 
         do {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Press enter to see current state: ");
+            System.out.println("\n Press enter to see current state: \n");
             scanner.nextLine();
             trafficLightsController.currentState();
         }

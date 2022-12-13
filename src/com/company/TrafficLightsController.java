@@ -40,7 +40,7 @@ public class TrafficLightsController {
 
     private void changeLights(TrafficDirection currentTrafficDirection) {
         trafficDirectionList.forEach(trafficDirection -> {
-            System.out.println("Updating direction " + trafficDirection.identifier);
+            System.out.println("*log message* Updating direction " + trafficDirection.identifier);
             trafficDirection.trafficLightsList.forEach(trafficLight -> {
                 switch (trafficLight.lightType) {
                     case Pedestrian:
@@ -56,7 +56,7 @@ public class TrafficLightsController {
             });
         });
 
-        System.out.println("*log message* All are yellow");
+        System.out.println("*log message* All vehicle lights are yellow");
         delay(deadzone);
 
         trafficDirectionList.forEach(trafficDirection -> {
